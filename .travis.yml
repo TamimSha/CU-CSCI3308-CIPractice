@@ -1,5 +1,7 @@
 language: c
 
 compiler: gcc
+
+script: make && make test
 # uncomment and edit the following line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
